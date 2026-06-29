@@ -8,6 +8,7 @@ build/
 
 # Vite / frontend caches
 .vite/
+.astro/
 .cache/
 .parcel-cache/
 .turbo/
@@ -54,7 +55,14 @@ desktop.ini
 
 # Package manager files
 .npm/
+.npm-cache/
 .pnpm-store/
 
 # Misc
 *.local
+
+# Local agent/tooling metadata
+.agents/
+.codex/
+.repo/
+skills-lock.json

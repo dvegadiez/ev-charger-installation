@@ -29,7 +29,7 @@ Este proyecto esta previsto como una aplicacion web frontend moderna basada en:
 
 Astro sera la base principal por su rendimiento, SEO y capacidad de generar paginas estaticas rapidas. React se usara solo donde aporte valor, por ejemplo formularios, componentes interactivos o estados dinamicos.
 
-El proyecto todavia no ha sido inicializado con dependencias. Los comandos siguientes aplicaran cuando se cree la aplicacion base con Astro.
+El proyecto contiene una estructura inicial minima con una pagina de "Hola mundo" para permitir trabajo paralelo en integracion continua, despliegue y futuras funcionalidades.
 
 ## Comandos previstos
 
@@ -75,6 +75,7 @@ tesla-charger-installer/
     env.d.ts
   astro.config.mjs
   package.json
+  tsconfig.json
   README.md
 ```
 
@@ -133,4 +134,4 @@ No se deben publicar datos sensibles en el repositorio. Los archivos `.env` loca
 
 ## Estado actual
 
-Este repositorio contiene la documentacion inicial y esta listo para inicializar la aplicacion frontend.
+Este repositorio contiene la documentacion inicial y un esqueleto Astro + React listo para instalar dependencias, ejecutar en local y conectar procesos de integracion continua.
